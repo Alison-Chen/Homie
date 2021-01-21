@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* reset css */
 div.banner_bg{
     background-image: url("../images/banner.jpg");
