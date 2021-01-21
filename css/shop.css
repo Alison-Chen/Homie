@@ -1,0 +1,269 @@
+@import "./common/header.css";
+@import "./common/banner.css";
+@import "./common/footer.css";
+@import "./common/body.css";
+@import "./designer_details.css";
+@import"./explore.css";
+@import"./shop.css";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p_all{
+    background-color: #fff;
+}
+div.furniture_all{
+    /* border: 1px solid red; */
+    width:1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing:1px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.furniture_all .furniture1{
+    /* border:1px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+ /* div.furniture_all .furniture{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border:1px solid red;
+    /* justify-content: center;
+    align-items: center; */
+
+div.furniture_all .furniture1 > .bg{
+    /* background-color: #fff; */
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(115, 132, 148);
+    font-weight: bold;
+    letter-spacing: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,247,247,0.6758053563222164) 62%, rgba(238,238,238,1) 100%, rgba(255,255,255,1) 100%);
+}
+div.furniture_all .furniture1 .living_room{
+    background-image: url(../images/livingroom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 400px;
+}
+div.furniture_all .furniture1 .dining_room{
+    background-image: url(../images/f13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 400px;
+}
+div.furniture_all .furniture1 .bedrooms{
+    background-image: url(../images/bedrooms.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 400px;
+}
+
+div.furniture_all .furniture1 .bedrooms p:hover{
+    font-size: 25px;
+}
+div.furniture_all .furniture1 .dining_room p:hover{
+    font-size: 25px;
+}
+div.furniture_all .furniture1 .living_room p:hover{
+    font-size: 25px;
+}
+
+div.furniture_all .furniture1 .living_room, .dining_room, .bedrooms{
+    position: relative;
+    /* opacity: 0.7; */
+    /* height:400px;
+    width:250px; */
+    /* overflow: hidden; */
+}
+div.furniture_all .furniture1 .living_room p, .dining_room p, .bedrooms p{
+    position: absolute;
+    text-align:center;
+    bottom: 20px;
+    margin: 0 auto;
+    width:100%;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    transition: all .3s;
+    /* font-weight: bold; */
+}
+/* div.furniture_all .furniture, .living_room img, .dining_room img, .bedrooms img{
+    /* position: absolute; */
+    /* top:50%;
+    left:50%; */
+    /* border:1px solid red; */
+/* div.furniture_all, .furniture p{
+    /* border: 1px solid red; */
+
+div.product_all{
+    width:900px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 50px;
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+
+}
+
+div.product_all .product >p{
+    color:#738494;
+    font-size: 24px;
+    font-weight: bold;
+    /* border:1px solid red; */
+    /* border-radius: 10px; */
+}
+
+div.product_all .product .allitems_button >span{
+    background-image: url(../images/expand-button.png);
+    background-position: right 10px bottom 6px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    padding: 0;
+    /* margin:0 5px; */
+    margin: 0 auto;
+    width:110px;
+    display: inline-block;
+    border-radius: 10px;
+    border:1px solid  rgb(33, 37, 41);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: 200;
+
+}
+div.product_all .product .allitems_button{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+} 
+div.product_all .product .chair_all{
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content: space-around ; */
+    justify-content: flex-end;
+    /* margin-right: 50px;
+    margin-bottom: 100px; */
+    /* border:1px solid red; */
+}
+div.product_all .product .chair_all .c1, .c2, .c3 ,.c4 ,.c5, .c6, .c7, .c8{
+    width: 200px;
+    height: 300px;
+}
+div.product_all .product .chair_all .c4{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin: 20px 0;
+}
+div.chair_all .chair_1, .chair_2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+div.chair_all .chair_1 .chairs{
+    position: relative;
+}
+div.chair_all .chair_1 .cover{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top:0;
+}
+div.chair_all .chair_1 .cover:hover{
+    opacity: 0.5;
+    color: white;
+
+}
+div.chair_all .chair_1 .cover > h5{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;   
+}
+
+
+div.chair_all .chair_2 .chairs{
+    position: relative;
+}
+div.chair_all .chair_2 .cover{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top:0;
+}
+div.chair_all .chair_2 .cover:hover{
+    opacity: 0.5;
+    color: white;
+
+}
+div.chair_all .chair_2 .cover > h5{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;   
+}
+/* 頁數 */
+.furniture_all ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width:100%;
+}
+.furniture_all ul >li{
+    margin-left: 10px;
+    padding: 5px 10px;
+    
+}
+.furniture_all ul li:nth-child(2){
+    border-bottom: 3px solid rgb(115, 132, 148) ;
+}
+.furniture_all ul li:hover{
+    margin-left: 10px;
+    font-weight: bold;
+    color:white;
+    background-color:rgb(115, 132, 148);
+    
+}

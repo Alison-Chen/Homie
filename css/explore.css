@@ -1,0 +1,211 @@
+@import "./common/header.css";
+@import "./common/banner.css";
+@import "./common/footer.css";
+@import "./common/body.css";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header.header .nav .link_list li:nth-child(3) > a {
+    color:rgb(115, 132, 148);
+    font-weight: bold;
+} */
+header.header nav.nav ul.link_list > li > .page{
+    border-bottom: 2px solid rgb(115, 132, 148);
+    font-weight: bold;
+    color:rgb(115, 132, 148);
+}
+div.explore_all{
+    max-width:1200px;
+    /* border:1px solid red; */
+    margin: 0 auto;
+    /* display:flex; */
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    right:0;
+    top:0;
+  
+}
+div.explore_all .filterall{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+div.explore_all .dropdown{
+    display:flex;
+    float: right;
+    /* position:absolute; */
+    justify-content: center; 
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #99c0ba;
+    width:70px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #99c0ba;
+    color:black;
+    position:sticky;
+    border: 1px solid #000;
+    top: 15px;
+    z-index: 2;
+
+     /* border: 1px solid red; */
+}
+
+div.explore_all .dropdown img{
+    width:25%;    
+}
+div.explore{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: start;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    max-width:1100px;
+}
+div.explore .explore-1, .explore-2, .explore-3{
+    width: 100%;
+}
+div.explore .explore-1 .pic-all, .explore-2 .pic-all, .explore-3 .pic-all{
+    position: relative;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 25% ;
+    /* border: 1px solid #000; */
+    height: 250px; 
+    /* margin-right: 15px; */
+}
+
+div.explore .explore-1 .long, .explore-2 .long, .explore-3 .long{
+    width:45%;
+    position: relative;
+}
+
+ .fa-heart{
+    position:absolute;
+    width:25px;
+    top:5px;
+    right:5px;
+    /* margin-right: 2px;
+    margin-top:10px; */
+    stroke:rgb(179, 179, 179);
+    stroke-width: 20px;
+    fill:rgb(255, 255, 255);
+    z-index: 1;
+    /* border: 1px solid #000; */
+}
+.heart{
+    fill:red;
+    stroke: red; 
+    stroke-width: 10px;
+}
+div.explore .explore-1, .explore-2, .explore-3{
+    display:flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+div.explore .explore-1 .pic-1 ,.pic-2, .pic-4, .pic-5{
+    width:120%;
+    /* border:1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+div.explore .explore-1 .pic-5{
+    width:110%;
+} 
+div.explore .explore-1 .pic-3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.0);
+}
+div.explore .explore-1 .pic-all .pic-6{
+    width: 130%;
+    border: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+}
+div.explore .explore-2 .pic-7{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+div.explore .explore-2 .pic-8, .pic-9, .pic-11, .pic-12{
+    width:120%;
+    /* border:1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+} 
+div.explore .explore-2 .pic-10{
+    width: 130%;
+    /* border: 1px solid #000; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+div.explore .explore-3 .pic-13, .pic-14, .pic16, .pic17{
+    width:100%;
+    /* border:1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+div.explore .explore-3 .pic-16, .pic-17{
+    width:100%;
+    /* border:1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+div.explore .explore-3 .pic-15, .pic-18{
+    width:100%;
+    /* border:1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+/* div.explore .explore-3 .pic-15{
+
+} */
+/* div.explore .explore-1 .pic-3, .pic-6{
+    width:500px;
+    height:316px;
+}
+div.explore .explore-2 .pic-7, .pic-10{
+    width:500px;
+    height:316px;
+} */
+/* div.explore .explore-2 .pic-8, .pic-9, .pic-11, .pic-12{
+    width:236px;
+    height:316px;
+    /* border:1px solid red; */
+/* } */ 
+/* div.explore .explore-3 .pic-13, .pic-14, .pic-16, .pic-17{
+    width:236px;
+    height:316px;
+    /* border:1px solid red; */
+/* } */ 
+/* div.explore .explore-3 .pic-15, .pic-18{
+    width:500px;
+    height:316px;
+} */ 

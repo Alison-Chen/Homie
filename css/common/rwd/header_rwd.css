@@ -1,0 +1,183 @@
+            /* -----------max-width: 768px----------- */
+            @media screen and (max-width: 768px){
+                body{
+                    overflow-x: hidden; 
+                } 
+                /* header.header a.logo_img img{
+                    display: block;
+                    margin: 0 auto;
+                } */
+                header.header nav.nav{
+                    position:absolute;
+                    right: 0;
+                    top:55vh;
+                    width: 100%;
+                }
+                header.header .nav .link_list li{
+                    opacity: 0;
+                    padding: 30px;
+                }
+                header.header nav.nav ul.link_list > li > a{
+                    color: white;
+                    transition: all 0.3s;
+                }
+                header.header nav.nav ul.link_list > li:nth-child(4) {
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                    width: 50%;
+                    text-align: center;
+                }
+                header.header nav.nav ul.link_list > li:nth-child(5) > a {
+                    margin-left: 0;
+                    display: inline-block;
+                }
+                header.header nav.nav ul.link_list > li:nth-child(5){
+                    padding: 3px;
+                    display: inline-block;
+                    /* border: 1px solid #000; */
+                }
+
+                header.header nav.nav ul.link_list > li:nth-child(6){
+                    display: none;
+                    /* display: inline-block; */
+                }
+                header.header nav.nav ul.link_list > li:nth-child(7){
+                    padding:3px;
+                    display: inline-block;
+                    /* border: 1px solid #000; */
+                }
+                header.header nav.nav ul.link_list > li:nth-child(7) >a{
+                    display: inline-block;  
+                }
+
+                header.header nav.nav ul.link_list >li > a:hover{
+                    color: rgb(247, 122, 100);
+                    border-bottom: 2px solid rgb(247, 122, 100);
+                    font-weight: bold;
+                }
+                header.header nav.nav ul.link_list > li div.how_block {
+                    color: white;
+                    transition: all 0.3s;
+                }
+              
+                header.header nav.nav ul.link_list{
+                top: 8vh ;
+                height: 92vh;
+                width: 100%;
+                display:flex ;
+                flex-direction: column;
+                align-items: center;
+                transform: translateX(100%);
+                transition: all 1s ;
+                /* transition: transform 0.5s ease-in; */
+                background-color: #89C8C6;
+               
+                
+                /* border: 1px solid red; */
+            }
+            /* .seperate{
+                display: none;
+            } */
+            div.burger{
+                display:block;
+                position:absolute;
+                right: 10px;
+                top:20px;
+              
+                /* display:absolute */
+            }
+            header.header nav.nav ul.nav-active{
+                transform:translateX(0%);
+            }
+            /* 字特效由右側滑到左側 */
+            @keyframes navLinkFade{
+                from{
+                    opacity: 0;
+                    transform: translateX(50px);
+                }
+                to{
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+            }
+            /* x */
+            .toggle .line1{
+                transform: rotate(-45deg) translate(-4px,6px);
+            }
+            .toggle .line2{
+                opacity: 0;
+            } 
+
+            .toggle .line3{
+                transform: rotate(45deg) translate(-4px,-6px);
+            }
+
+
+            /* header.header nav.nav ul.link_list > li div.how_block:hover ul.how_list{
+                display: none;
+            } */
+            header.header nav.nav ul.link_list > li div.how_block ul.how_list{
+                display: none;
+                position: relative;
+                background-color: transparent;
+           }
+           /* header.header nav.nav ul.link_list > li div.how_block:hover ul.how_list{
+                display: none;
+           } */
+           header.header nav.nav ul.link_list > li div.how_block:hover ul.how_list{
+                display: none;
+            }
+           header.header nav.nav ul.link_list > li div.how_block ul.list{
+                display: block;
+                position: relative;
+                list-style: none;
+                background-color: transparent;
+
+           }
+           header.header nav.nav ul.link_list > li div.how_block ul.list li{
+               opacity: 1;
+           }
+           header.header nav.nav ul.link_list > li div.how_block ul.list li a{
+               color:#fff;
+               text-decoration: none;
+           }
+            header.header nav.nav ul.link_list > li div.how_block{
+                background-image: none;
+                position: relative;
+            }
+            
+            header.header nav.nav ul.link_list > li div.how_block::after{
+                content: "";
+                height: 1.5px;
+                width: 8px;
+                background-color: #fff;
+                transform:rotate(-45deg);
+                position: absolute;
+                right: 0;
+                top: 18px;
+            }
+
+            header.header nav.nav ul.link_list > li div.how_block::before{
+                content: "";
+                height: 1.5px;
+                width: 8px;
+                background-color: #fff;
+                transform:rotate(45deg);
+                position: absolute;
+                right: 5px;
+                top: 18px;
+            }
+           header.header nav.nav ul.link_list > li div.how_block:hover{
+                background-image: none;
+                color: rgb(247, 122, 100);
+                font-weight: bold;
+                border-bottom: 2px solid rgb(247, 122, 100);
+        }
+           header.header nav.nav ul.link_list > li div.how_block:hover::before{
+                background-color: rgb(247, 122, 100);
+                font-weight: bold;
+        }
+           header.header nav.nav ul.link_list > li div.how_block:hover::after{
+                background-color: rgb(247, 122, 100);
+                font-weight: bold;
+
+        }

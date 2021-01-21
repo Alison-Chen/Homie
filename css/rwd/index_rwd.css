@@ -1,0 +1,96 @@
+
+ /* -----------max-width: 1024px----------- */
+    @media screen and (max-width: 1024px){
+        div.design_banner > p{
+            font-size: 16px;
+        }
+        
+        div.design_banner .design_process_1 > p{
+            font-size: 14px;
+        }
+        div.design_banner .design_process_2 > p{
+            font-size: 14px;
+        }
+        div.design_banner .design_process_3 > p{
+            font-size: 14px;
+        
+        }
+    }    
+
+    /* -----------max-width: 915px----------- */
+    @media screen and (max-width: 915px){
+
+  
+
+        div.design_banner .design_process_1 > p{
+            /* bottom: 10%; */
+            font-size: 9px;
+        }
+        div.design_banner .design_process_2 > p{
+            font-size: 9px;
+        }
+        div.design_banner .design_process_3 > p{
+            font-size: 9px;
+        }   
+
+    }
+
+ /* -----------max-width: 768px----------- */
+ 
+ @media screen and (max-width: 768px){ 
+    div.design_banner > p{
+        top: 5%;
+        left: 10%;
+    }
+    div.design_processall{
+        flex-direction:column;
+        }
+    /* design process */
+    div.design_banner .design_process_1{
+        width: 100%;
+        /* border: 1px solid #000; */
+        padding-top: 50%;
+        background-size: 40%;
+
+    }
+    div.design_banner .design_process_1 > p{
+        bottom: 10%;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    div.design_banner .design_process_2{
+        width: 100%;
+        padding-top: 50%;
+        background-size: 40%;
+    }
+    div.design_banner .design_process_2 > p{
+        bottom: 10%;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    div.design_banner .design_process_3{
+        width: 100%;
+        padding-top: 50%;
+        background-size: 40%;
+    } 
+    div.design_banner .design_process_3 > p{
+        font-size: 15px;
+        bottom: 10%;
+        margin-top: 30px;
+
+    } 
+    /* design process */  
+    /* div.pricing_pic{
+        max-width: 200px;
+
+    }
+    div.pricing_pic .pricing > p{
+        font-size: 8px;
+        border: 1px solid #000;
+    /* } */
+ 
+}
+ /* -----------max-width: 576px----------- */
+ @media screen and (max-width: 576px){ 
+    
+ }

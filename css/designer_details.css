@@ -1,0 +1,112 @@
+@import "./common/header.css";
+@import "./common/banner.css";
+@import "./common/footer.css";
+@import "./common/body.css";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ div.profile_all{
+     max-width:1200px;
+     /* border: 1px solid red;  */
+     margin: 0 auto;
+ }
+
+div.profile_all .profile{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     margin:0 auto;
+     /* border: 1px solid blue; */
+     margin-bottom: 30px;
+     
+    } 
+div.profile_all .pic{
+    padding:0;
+    width: 5%;
+    /* width:100% */
+}
+div.profile_all .profile .name{
+    margin-left:10px;
+}
+div.profile_all .profile .name p:nth-child(1){
+    font-size: 15px;
+    font-weight: bold;
+}
+div.profile_all .profile .name p:nth-child(2){
+    font-size: 10px;
+}
+div.profile_all .pic img{
+    width: 100%;
+    display: block;
+}
+
+div.pic_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .name{
+    /* border: 1px solid #000; */
+/* } */ 
+
+
+
+
+.row1,.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pic-1{
+    position: relative;
+}
+.pic-1 img{
+    width: 100%;
+}
+
+ div.profile_all .row1 .b1{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid blue; */
+}
+div.profile_all .row1 .b2{
+    width: 300px;
+    height: 400px;
+}
+div.profile_all .row1 .b3{
+    width: 500px;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+div.profile_all .row2 .b4{
+    width: 500px;
+    height:400px;
+    /* border: 1px solid red; */
+} 
+div.profile_all .row2 .b5{
+    width: 300px;
+    height:400px;
+    /* border: 1px solid red; */
+} 
+
+div.profile_all .row2 .b6{
+    width: 300px;
+    height:400px;
+}
+/* div.profile_all .pic_all .pic{
+    position: relative;
+}
+div.profile_all .pic_all .row1 .pic img:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:50px;
+} */

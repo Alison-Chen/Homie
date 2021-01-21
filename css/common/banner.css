@@ -1,0 +1,111 @@
+.banner_bg {
+    color: rgb(33, 37, 41);
+    position: relative;
+}
+div.banner{
+    position: absolute;
+    left: 190px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+div.banner h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+div.banner h4{
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: #89C8C6;
+    box-shadow: 1px 1px 0px 0px white;
+    cursor: pointer;
+}
+div.banner h4:hover{
+    background-color: rgb(247, 122, 100);
+}
+
+/* -----------max-width: 1024px----------- */
+@media screen and (max-width: 1024px){
+    div.banner{
+        left: 170px;
+        top: 50%;
+    }
+    div.banner h3{
+        font-size: 1.2rem;
+    }
+    div.banner h2{
+        font-size: 2.2rem;
+    }
+    div.banner h4{
+        width: 125px;
+        height: 30px;
+        font-size:0.9rem;
+    
+    }
+
+}
+
+/* -----------max-width: 768px----------- */
+@media screen and (max-width: 768px){
+div.banner{
+    left: 100px;
+    top: 50%;
+}
+div.banner h3{
+    font-size: 1rem;
+}
+div.banner h2{
+    font-size: 2rem;
+
+}
+div.banner h4{
+    width: 120px;
+    height: 25px;
+    font-size:0.8rem;
+
+}
+}
+
+/* -----------max-width: 576px----------- */
+@media screen and (max-width: 576px){
+    div.banner{
+        left: 100px;
+        top: 50%;
+    }
+
+    div.banner h3{
+        font-size: 0.5rem;
+    }
+    div.banner h2{
+        font-size: 1.2rem;
+    }
+    div.banner h4{
+        width: 100px;
+        height: 20px;
+        font-size:0.3rem;
+    
+    }
+    
+}
+/* -----------max-width: 400px----------- */
+@media screen and (max-width: 400px){
+    div.banner{
+        left: 60px;
+        top: 50%;
+    }
+
+    div.banner h3{
+        font-size: 0.3rem;
+    }
+    div.banner h2{
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+    div.banner h4{
+    font-size:0.1rem;
+    }
+}

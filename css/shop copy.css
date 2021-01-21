@@ -1,0 +1,143 @@
+@import "./common/header.css";
+@import "./common/banner.css";
+@import "./common/footer.css";
+@import "./common/body.css";
+@import "./designer_details.css";
+@import"./explore.css";
+@import"./shop.css";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.furniture_all{
+    /* border: 1px solid red; */
+    width:1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing:1px;
+    margin-bottom: 20px;
+}
+div.furniture_all .furniture{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+    /* justify-content: center;
+    align-items: center; */
+}
+div.furniture_all .furniture > p{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color:#738494;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+div.furniture_all .furniture .living_room, .dining_room, .bedrooms{
+    position: relative;
+    height:400px;
+    width:250px;
+    overflow: hidden;
+}
+div.furniture_all .furniture .living_room p, .dining_room p, .bedrooms p{
+    position: absolute;
+    text-align:center;
+    bottom: 20px;
+    margin: 0 auto;
+    width:100%;
+    font-size: 20px;
+    color:white;
+    /* font-weight: bold; */
+}
+div.furniture_all .furniture, .living_room img, .dining_room img, .bedrooms img{
+    position: absolute;
+    /* top:50%;
+    left:50%; */
+    /* border:1px solid red; */
+ } 
+div.furniture_all, .furniture p{
+    /* border: 1px solid red; */
+}
+div.product_all{
+    width:900px;
+    display: flex;
+    justify-content:center center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+div.product_all .product >p{
+    color:#738494;
+    font-size: 24px;
+    /* border:1px solid red; */
+    /* border-radius: 10px; */
+}
+div.product_all .product .allitems_button >span{
+    background-image: url(../images/expand-button.png);
+    background-position: right 10px bottom 6px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    padding: 0;
+    /* margin:0 5px; */
+    margin: 0 auto;
+    width:110px;
+    display: inline-block;
+    border-radius: 10px;
+    border:1px solid  rgb(33, 37, 41);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Andika New Basic', sans-serif;
+
+}
+div.product_all .product .allitems_button{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center center;
+} 
+div.product_all .product .chair_all{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around ;
+}
+div.product_all .product .chair_all .c1, .c2, .c3 ,.c4 ,.c5, .c6, .c7, .c8{
+    width: 200px;
+    height: 300px;
+}
+div.chair_all .chair_1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 頁數 */
+.furniture_all ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width:100%;
+}
+.furniture_all ul >li{
+    margin-left: 10px;
+    padding: 5px 10px;
+    
+}
+.furniture_all ul li:nth-child(2){
+    border-bottom: 3px solid rgb(115, 132, 148) ;
+}
+.furniture_all ul li:hover{
+    margin-left: 10px;
+    font-weight: bold;
+    color:white;
+    background-color:rgb(115, 132, 148);
+    
+}

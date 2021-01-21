@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.pricing_pic{
+            max-width:300px;
+            /* height: 400px; */
+            border: 1px solid red;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: -4px -2px 15px 1px rgba(109, 108, 108, .3);
+            padding:15px 30px;
+            margin-top: 0;
+        }
+        div.pricing_pic .pricing{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        div.pricing_pic .pricing > p{
+            text-align: center;
+            font-size: 18px;
+            width: 100%;
+        }
+        div.pricing_pic .pricing .content_1 > del{
+            font-size: 12px;
+        }
+        div.pricing_pic .pricing .content_1 > p{
+            margin-top: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        div.pricing_pic .pricing .content_2 > p{
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        div.pricing_pic > a{
+            text-decoration: none;
+            color: black;
+        }
+        div.pricing_pic .homie_mini{
+            width: 100%;
+            position: relative;
+            text-align: center;;
+        }
+        div.pricing_pic .homie_mini > img{
+            width:45%;
+            border: 1px solid red;
+            /* display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center; */
+            
+        }
+        div.pricing_pic .homie_mini > .img1{
+            border: 1px solid red;   
+            position: relative;
+            top: 30px;
+        }
+        div.pricing_pic > .button{
+            border: 1px solid red;
+            display: block;
+            text-align: center;
+            padding: 6px 0;
+            /* align-items: center; */
+            border-radius: 20px;
+            background-color: #89C8C6;
+            opacity: 0.9;
+            width: 100px;
+            color:white;
+            margin:40px auto 0 auto ;
+            /* cursor: pointer; */
+        }
+        div.pricing_pic > .more{
+            border: 1px solid red;
+            display: block;
+            text-align: center;
+            padding: 6px 0;
+            /* cursor: pointer; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pricing_pic">
+        <a href="#">  
+          <div class="pricing">
+               <p class="title">Homie mini</p>
+           <div class="content_1">
+               <del>$99</del>
+               <p class="discount">$79</p>
+          </div>
+           <div class="content_2">
+               <p class="content">Update your space <br>
+                          or add finishing touches</p>
+          </div>
+          </div>
+          <div class="homie_mini">
+              <img class="img1" src="./images/homie_mini-1.jpg">
+              <img src="./images/homie_mini-2.jpg">
+          </div>
+          
+          <a class="button" href="#">Get started</a>
+          <p class="more">more details</p>
+        </a>  
+      </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: 'Andika New Basic', sans-serif;
+}
+header.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+header.header a.logo_img img{
+    display: inline-block;
+    vertical-align:middle;
+    /* margin-right: 500px; */
+}
+header.header a.logo_img img{
+    height: 65px;
+}
+header.header nav.nav{
+    display: inline-block;
+    vertical-align:middle;
+    flex-wrap: wrap;
+    /* right:0 ;
+    top:50% ;
+    transform: translateY(-50%); */ 
+    /* border: 1px solid red;
+
+}
+
+/* burger */
+
+div.burger .div{
+    width: 25px;
+    height: 5px;
+    background-color: #89C8C6;
+    margin: 5px;
+    border: 1px solid red;
+}
