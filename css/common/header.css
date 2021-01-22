@@ -2,18 +2,25 @@
             margin: 0;
             font-family: 'Andika New Basic', sans-serif;
         }
+    
         header.header{
-            max-width: 1200px;
+            max-width: 100%;
             margin: 0 auto;
             font-size: 0;
             position: relative;
             z-index:2;
+            position:fixed; 
+            background-color:#f6f6f6;
+            width: 100%;
+            left: 0;
+            top: 0;
     
         }
         header.header a.logo_img img{
             display: inline-block;
             vertical-align:middle;
-            margin-right: 500px;
+            margin-left: 10%;
+            /* margin-right: 50px; */
         }
         header.header a.logo_img img{
             height: 65px;

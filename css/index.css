@@ -76,14 +76,15 @@ div.design_banner .design_process_1{
     background-color: #eeeeee;
     margin: 0 15px;
     /* padding: 0; */
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 div.design_banner .design_process_1 > p{
     position: relative;
     text-align: center;
     bottom: 70px;
     /* border: 1px solid #000; */
-    font-size: 15px;
+    font-size: 16px;
+    width: 150%;
 }
 
 
@@ -96,6 +97,7 @@ div.design_banner .design_process_2{
     background-position: center center;
     background-color: #eeeeee;
     margin: 0 25px;
+    border: 1px solid #000;
     /* position: relative; */
     /* border: 1px solid #000; */
 
@@ -106,9 +108,11 @@ div.design_banner .design_process_2 > p{
     position: relative;
     text-align: center;
     bottom: 70px;
-    font-size: 15px;
-    /* border: 1px solid #000; */
+    font-size: 16px;
     margin: 0 auto;
+    width: 150%;
+    /* border: 1px solid #000; */
+    z-index:1;
     /* right: 1%; */
 }
 
@@ -120,7 +124,7 @@ div.design_banner .design_process_3{
     background-size: contain;
     background-position: bottom 40% center;
     background-color: #eeeeee;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     margin: 0 15px;
     position: relative;
 }
@@ -129,7 +133,8 @@ div.design_banner .design_process_3 > p{
     position: relative;
     text-align: center;
     bottom: 70px;
-    font-size: 15px;
+    font-size: 16px;
+    width: 150%;
     /* margin-left: 15%; */
     /* right: 5%; */
 }
@@ -376,10 +381,8 @@ div.customer_reviewall .customer_reviewpic .customer_banner{
         /* border:0px solid black; */
     }
     .owl-prev i, .owl-next i {transform : scale(2,2); color:  #89C8C6;}
-
-/* @media(max-width: 768px){
+/* 
+@media(max-width: 768px){
     .pricing_picall{
       flex-wrap: wrap;
-    }
-
-  } */
+    } */

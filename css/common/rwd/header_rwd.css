@@ -1,6 +1,6 @@
             /* -----------max-width: 768px----------- */
             @media screen and (max-width: 768px){
-                body{
+                html,body{
                     overflow-x: hidden; 
                 } 
                 /* header.header a.logo_img img{
