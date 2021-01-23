@@ -1,45 +1,69 @@
 
+ /* -----------max-width: 1200px----------- */
+    @media screen and (max-width: 1200px){
+    .owl-carousel .customer_reviewall > .customer_banner{
+       
+     
+    }
+ }
  /* -----------max-width: 1024px----------- */
     @media screen and (max-width: 1024px){
+
+        /* design process */
         div.design_banner > p{
-            font-size: 16px;
+            font-size: 18px;
         }
         
         div.design_banner .design_process_1 > p{
-            font-size: 14px;
+           margin-left: 10px;
+
         }
-        div.design_banner .design_process_2 > p{
+        /* div.design_banner .design_process_2 > p{
             font-size: 14px;
         }
         div.design_banner .design_process_3 > p{
             font-size: 14px;
         
-        }
+        } */ 
     }    
 
-    /* -----------max-width: 915px----------- */
-    @media screen and (max-width: 915px){
-
-  
+    /* -----------max-width: 992px----------- */
+    @media screen and (max-width: 992px){
 
         div.design_banner .design_process_1 > p{
-            /* bottom: 10%; */
-            font-size: 16px;
-        }
-        div.design_banner .design_process_2 > p{
-            font-size: 16px;
+            margin-top: 15px;
+            margin-left: 10px;
+            font-size: 15px;
+ 
+         }
+         div.design_banner .design_process_2 > p{
+            margin-top: 15px;
+            margin-left: 10px;
+            font-size: 15px;
+         }
+         div.design_banner .design_process_3 > p{
+            margin-top: 15px;
+            margin-left: 10px;
+            font-size: 15px;
+           
+         } 
+
+
+        /* customer review */
+  
       
-        }
-        div.design_banner .design_process_3 > p{
-            font-size: 16px;
-
-        }   
-
-    }
+     
+    } 
 
  /* -----------max-width: 768px----------- */
  
  @media screen and (max-width: 768px){ 
+
+    /* ===============design process============== */ 
+    div.banner_bg, div.banner_b{
+        padding-top: 100%;
+    }
+
     div.design_banner > p{
         top: 5%;
         left: 10%;
@@ -47,11 +71,11 @@
     div.design_processall{
         flex-direction:column;
         }
-    /* design process */
+ 
     div.design_banner .design_process_1{
         width: 100%;
         /* border: 1px solid #000; */
-        padding-top: 50%;
+        padding-top: 60%;
         background-size: 40%;
 
     }
@@ -59,6 +83,10 @@
         bottom: 10%;
         font-size: 16px;
         margin-top: 30px;
+        margin: 0 auto;
+        padding: 0 35%;
+        border: 1px solid red;
+        /* margin-right: 5px; */
     }
     div.design_banner .design_process_2{
         width: 100%;
@@ -69,6 +97,9 @@
         bottom: 10%;
         font-size: 16px;
         margin-top: 30px;
+        margin: 0 auto;
+        padding: 0 35%;
+        /* border: 1px solid red; */
     }
     div.design_banner .design_process_3{
         width: 100%;
@@ -79,55 +110,65 @@
         font-size: 16px;
         bottom: 10%;
         margin-top: 30px;
+        margin: 0 auto;
+        padding: 0 35%;
+        padding-bottom: 10%;
+        border: 1px solid red;
 
     } 
     .pricing_picall{
         flex-direction: column;
+        align-items: center;
       } 
 
       div.pricing_pic{
         margin-bottom: 40px;
     }
 
-    /* design process */  
-    /* div.pricing_pic{
-        max-width: 200px;
+    /* ===============customer review============== */ 
+
+  
+    .customer_reviewall{
+        flex-direction:column;
+        width: 100%;
+    }
+    .owl-carousel .customer_reviewall > .customer_banner{
+        width: 100%;
 
     }
-    div.pricing_pic .pricing > p{
-        font-size: 8px;
-        border: 1px solid #000;
-    /* } */
- 
-}
+    .customer_reviewall .feedback{
+        width: 100%;
 
+    }   
+    .customer_reviewall .feedback .ctitle{
+        font-size:18px;
+        padding-top: 15px;
+
+    }
+    .customer_reviewall .feedback > .money{
+        font-size: 12px;
+        padding-bottom: 15px;
+
+
+    }
+}
 /* -----------max-width: 400px----------- */
 @media screen and (max-width: 400px){
+    /* design process */
     div.design_banner > p{
-        font-size: 12px;
+        font-size: 16px;
     }
     div.design_banner .design_process_1 > p{
-        font-size: 10px;
+        font-size: 14px;
+        padding: 0 30%;
     }
     div.design_banner .design_process_2 > p{
-        font-size: 10px;
+        padding: 0 30%;
+        font-size: 14px;
     }
     div.design_banner .design_process_3 > p{
-        font-size: 10px;
+        font-size: 14px;
+        padding: 0 30%;
     }
 }
 
- /* -----------max-width: 320px----------- */
- /* @media screen and (max-width: 320px){ 
-    div.design_banner > p{
-        font-size: 13px;
-    }
-    div.design_banner .design_process_1 > p{
-        font-size: 10px;
-    }
-    div.design_banner .design_process_2 > p{
-        font-size: 10px;
-    }
-    div.design_banner .design_process_3 > p{
-        font-size: 10px;
-    } */

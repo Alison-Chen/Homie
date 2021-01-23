@@ -1,0 +1,63 @@
+.customer{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.customer_reviewall{
+    background-color: #FAEFE6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    border: 1px solid red;
+    align-items: center;
+    margin:0 auto;
+}
+
+.customer_reviewall > img{
+    width:720px;
+
+}
+.customer_reviewall .reviewstar{
+    margin-left: 20px;
+    /* border: 1px solid red; */
+    /* padding:5px; */
+    
+}
+
+
+.customer_reviewall .feedback{
+   
+    width: 40%;
+    /* border: 1px solid red; */
+    align-items: center;
+    
+}
+.customer_reviewall .feedback .ctitle{
+    font-size:23px;
+    font-weight: bold;
+    padding-left: 20px;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    top: 0;
+} 
+.customer_reviewall .feedback > .experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+.customer_reviewall .feedback > .money{
+    
+    padding: 0 20px;
+    margin: 0;
+    /* border: 1px solid red; */
+    font-size: 15px;
+}

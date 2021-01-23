@@ -1,25 +1,45 @@
             /* -----------max-width: 768px----------- */
             @media screen and (max-width: 768px){
-                html,body{
+                html{
+                    overflow-x: hidden;
+                }
+                body{
                     overflow-x: hidden; 
                 } 
                 /* header.header a.logo_img img{
                     display: block;
                     margin: 0 auto;
                 } */
-                header.header nav.nav{
-                    position:absolute;
-                    right: 0;
-                    top:55vh;
-                    width: 100%;
+                .pt{
+                    padding-top: 60px;
                 }
+                header.header{
+                    position: fixed;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    background-color: #eee;
+                }
+                header.header nav.nav{
+                    position:fixed;
+                    right: 0%;
+                    top:9vh;
+                    width: 100%;
+                    transform: translateX(100%);
+                    transition: all 1s;
+                }
+                header.header a.logo_img img{
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+
+                }
+
                 header.header .nav .link_list li{
                     opacity: 0;
                     padding: 30px;
                 }
                 header.header nav.nav ul.link_list > li > a{
                     color: white;
-                    transition: all 0.3s;
                 }
                 header.header nav.nav ul.link_list > li:nth-child(4) {
                     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -66,7 +86,7 @@
                 display:flex ;
                 flex-direction: column;
                 align-items: center;
-                transform: translateX(100%);
+                /* transform: translateX(100%); */
                 transition: all 1s ;
                 /* transition: transform 0.5s ease-in; */
                 background-color: #89C8C6;
@@ -85,7 +105,7 @@
               
                 /* display:absolute */
             }
-            header.header nav.nav ul.nav-active{
+            header.header nav.nav-active{
                 transform:translateX(0%);
             }
             /* 字特效由右側滑到左側 */
@@ -179,5 +199,5 @@
            header.header nav.nav ul.link_list > li div.how_block:hover::after{
                 background-color: rgb(247, 122, 100);
                 font-weight: bold;
-
+           }
         }

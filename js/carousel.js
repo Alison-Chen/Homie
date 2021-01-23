@@ -1,10 +1,12 @@
+// index-banner
+
 $(".b").owlCarousel({
   loop: true, // 循環播放
   margin: 10, // 外距 10px
   nav: false, // 顯示箭頭
   dots: false,
   autoplay: true,
-  autoplayTimeout:2500,
+  autoplayTimeout:3000,
   autoplayHoverPause:true,
   navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
   responsive: {
@@ -26,7 +28,7 @@ $(".owl-carousel").owlCarousel({
   nav: true, // 顯示點點
   dots: false,
   autoplay: true,
-  autoplayTimeout:2500,
+  autoplayTimeout:3000,
   autoplayHoverPause:true,
   navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
   responsive: {
