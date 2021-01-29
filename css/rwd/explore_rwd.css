@@ -1,0 +1,24 @@
+  /* -----------max-width: 992px----------- */
+  @media screen and (max-width: 992px){
+    div.pic_explore .pic-all{
+        width:20%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    div.pic_explore .long{
+        width: 40%;
+    }
+  }
+
+    /* -----------max-width: 768px----------- */
+    @media screen and (max-width: 768px){
+        div.pic_explore .pic-all{
+            width:30%;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        div.pic_explore .long{
+            width: 60%;
+        }
+
+ }

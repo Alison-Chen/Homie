@@ -1,13 +1,3 @@
-@import "./common/header.css";
-@import "./common/banner.css";
-@import "./common/footer.css";
-@import "./common/body.css";
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /* header.header .nav .link_list li:nth-child(3) > a {
     color:rgb(115, 132, 148);
     font-weight: bold;
@@ -21,81 +11,219 @@ div.explore_all{
     max-width:1200px;
     /* border:1px solid red; */
     margin: 0 auto;
-    /* display:flex; */
-    justify-content: flex-end;
-    flex-wrap: wrap;
     position: relative;
     right:0;
     top:0;
+     /* padding:0 0 20px 0; */
   
 }
+/* ==============  breadcrumbs =============== */
 div.explore_all .explore .exploredescript .breadcrumbs{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     z-index: 1;
     padding-top: 80px;
-    display: relative;
-    left: 0;
-
-}
-div.explore_all .explore .exploredescript .breadcrumbs > p{
-    display: absolute;
-    border: 1px solid red;
-
+    padding-left: 0px;
+    margin-left: 10px;
+    /* left: 5px; */
+    width: 100%;    
+    color: #585858;
 }
 
+div.explore_all .explore .exploredescript .breadcrumbs > a{
+    text-decoration: none;
+    color:#585858;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+div.explore_all .explore .exploredescript .breadcrumbs > .page{
+    font-weight: bold;
+
+}
+
+div.explore_all .explore .exploredescript .breadcrumbs > .page{
+    font-size: 14px;
+    color: #585858;
+}
+
+div.explore_all .explore .exploredescript {
+    width: 100%;
+}
+div.explore_all .explore .exploredescript > p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    /* font-family: 'Roboto', sans-serif; */
+    /* border: 1px solid #000; */
+}
+
+/* ================== dropdown ====================*/
 div.explore_all .dropdown{
-    display:flex;
-    float: right;
-    /* position:absolute; */
-    justify-content: center; 
-    align-items: center;
-    border-radius: 20px;
-    border: 1px solid #99c0ba;
+    /* border: 1px solid red; */
+    position: sticky;
+    top:80px;
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    z-index:2;
+}
+div.explore_all .dropdown .dpbtn{
+    position:relative;
+    /* border: 1px solid #000; */
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    left:100%;
+    transform:translateX(-100%);
+    margin-right:100px;
     width:70px;
     height: 30px;
     font-size: 10px;
     background-color: #99c0ba;
-    color:black;
-    position:sticky;
-    border: 1px solid #000;
-    top: 65px;
-    right: 100px;
-    z-index: 2;
-
-     /* border: 1px solid red; */
+    border-radius: 20px;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 2px 2px 2px 0px gray;
 }
-
-div.explore_all .dropdown img{
-    width:25%;    
-}
-div.explore{
+div.explore_all .dropdown .dpbtn img{
+    width:25%;
+    top: 5px;
     position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: start;
-    /* border: 1px solid blue; */
+}
+div.explore_all .dropdown .dpbtn p{
+    display: inline-block;
+}
+div.explore_all .dropdown .dpcontent1,.dpcontent2{
+    /* display: none; */
+    position: relative;
+}
+
+/* ================== dropdown content ====================*/
+  div.explore .dpcontent {
+    display: none;
+} 
+  div.explore .dpbtn_show{
+    display:block;
+  }
+
+div.explore .dpcontent .style > .style1{
+    width: 100%;
+    /* border: 1px solid #000; */
+    text-align: center;
+}
+
+div.explore .dpcontent .style .style1 > p{
+    position: relative;
+    margin-bottom: 10px;
+    /* padding: 5px; */
+    font-weight: bold;
+    
+}
+
+/* div.explore .dpcontent .dpcontent1 .reset .reset1{
+    font-size: 30px;
+    position: absolute;
+    left: 85%;
+    top: -25px;
+} */
+
+div.explore .dpcontent .reset .reset1{
+    position: absolute;
+    right: 10%;
+    bottom: 15px;
+    
+}
+
+
+.style1-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.style1-1 > p{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 4px;
+    /* font-weight: bold; */
+
+    
+}
+
+.dpcontent{
+    width: 350px;
+    background-color: #fff ;
+    box-shadow: 3px 5px 10px 3px gray;
+    position: absolute;
+    left: 100%;
+    top: 35px;
+    transform: translateX(-100%);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+}
+
+.dpcontent2 .room-1{
+    display: flex;
+    justify-content: center; 
+    /* padding: 0 10px; */
+}
+.roomtype > p{
+   text-align: center;
+   right:10px;
+   padding: 5px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+.dpcontent2 .room-1 >p{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 4px;
+}
+
+.dpcontent .dpcontent2 .clicked, .dpcontent .dpcontent1 .clicked {
+    background-color:  rgb(247, 122, 100);
+    color: white;
+} 
+.click{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.clicked{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* ==================== explore pic ====================== */
+div.explore{
     margin: 0 auto;
     max-width:1100px;
+    padding:0 0 0 20px;
+
 }
-div.explore .explore-1, .explore-2, .explore-3{
+/* div.explore .explore-1, .explore-2, .explore-3{
     width: 100%;
-}
-div.explore .explore-1 .pic-all, .explore-2 .pic-all, .explore-3 .pic-all{
+} */
+/* div.explore .explore-1 .pic-all, .explore-2 .pic-all, .explore-3 .pic-all{
     position: relative;
     margin: 5px;
     border-radius: 10px;
     overflow: hidden;
     width: 25% ;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     height: 250px; 
     /* margin-right: 15px; */
-}
+/* } */ 
 
-div.explore .explore-1 .long, .explore-2 .long, .explore-3 .long{
+/* div.explore .explore-1 .long, .explore-2 .long, .explore-3 .long{
     width:45%;
     position: relative;
-}
+} */
 
  .fa-heart{
     position:absolute;
@@ -115,17 +243,17 @@ div.explore .explore-1 .long, .explore-2 .long, .explore-3 .long{
     stroke: red; 
     stroke-width: 10px;
 }
-div.explore .explore-1, .explore-2, .explore-3{
+/* div.explore .explore-1, .explore-2, .explore-3{
     display:flex;
     flex-wrap: wrap;
     /* align-items: center; */
-    justify-content: space-around;
-}
-
+    /* justify-content: space-around; */
+/* }  */
+/* 
 div.explore .explore-1 .pic-1 ,.pic-2, .pic-4, .pic-5{
     width:120%;
     /* border:1px solid red; */
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.9);
@@ -138,83 +266,141 @@ div.explore .explore-1 .pic-3{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(1.0);
-}
-div.explore .explore-1 .pic-all .pic-6{
+} */
+/* div.explore .explore-1 .pic-all .pic-6{
     width: 130%;
     border: 1px solid #000;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.8);
-}
-div.explore .explore-2 .pic-7{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-}
-div.explore .explore-2 .pic-8, .pic-9, .pic-11, .pic-12{
-    width:120%;
-    /* border:1px solid red; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-} 
-div.explore .explore-2 .pic-10{
-    width: 130%;
-    /* border: 1px solid #000; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-}
-div.explore .explore-3 .pic-13, .pic-14, .pic16, .pic17{
-    width:100%;
-    /* border:1px solid red; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1);
-}
-div.explore .explore-3 .pic-16, .pic-17{
-    width:100%;
-    /* border:1px solid red; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1);
-}
-div.explore .explore-3 .pic-15, .pic-18{
-    width:100%;
-    /* border:1px solid red; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1);
-}
-/* div.explore .explore-3 .pic-15{
-
 } */
-/* div.explore .explore-1 .pic-3, .pic-6{
-    width:500px;
-    height:316px;
-}
-div.explore .explore-2 .pic-7, .pic-10{
-    width:500px;
-    height:316px;
+/* div.explore .explore-2 .pic-7{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
 } */
 /* div.explore .explore-2 .pic-8, .pic-9, .pic-11, .pic-12{
-    width:236px;
-    height:316px;
+    width:120%;
     /* border:1px solid red; */
-/* } */ 
-/* div.explore .explore-3 .pic-13, .pic-14, .pic-16, .pic-17{
-    width:236px;
-    height:316px;
-    /* border:1px solid red; */
-/* } */ 
-/* div.explore .explore-3 .pic-15, .pic-18{
-    width:500px;
-    height:316px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9); */
+/* }   */
+/* div.explore .explore-2 .pic-10{
+    width: 130%;
+    /* border: 1px solid #000; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
 } */ 
+/* div.explore .explore-3 .pic-13, .pic-14, .pic16, .pic17{
+    width:100%;
+    /* border:1px solid red; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+} */
+/* div.explore .explore-3 .pic-16, .pic-17{
+    width:100%;
+    /* border:1px solid red; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1); */ 
+/* }  */
+/* div.explore .explore-3 .pic-15, .pic-18{
+    width:100%;
+    /* border:1px solid red; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1); */
+/* }   */
+
+
+
+/* ======= pic_explore ========== */
+
+div.pic_explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.pic_explore .pic-all{
+    width: 20%;
+    height: 248px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+div.pic_explore .pic-all img{
+    width: 100%;
+    height: 100%;
+}
+
+div.pic_explore .long{
+    width: 40%;
+
+}
+
+
+/* pic cover */
+.cover{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top:0; 
+    border: 1px solid rgb(20, 20, 20);
+    
+}
+.pd{
+    position: absolute;
+    bottom:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    opacity: 0;
+
+}
+.pd > span >a{
+    /* text-decoration: none; */
+    text-decoration: underline;
+    color: white;
+    display: block;
+}
+.pd span{
+    margin-left: 5px;
+    color: white;
+    position: relative;
+    left:10px;
+    display: inline-block;
+    top: 100%;
+    transform: translateY(-110%);
+    z-index: 20;
+    /* bottom: 20px; */
+}
+
+.cover:hover{
+    opacity: .3;
+    color: white;
+    transition: all 0.3s;
+}
+.pic-all:hover .pd{
+    opacity: 1;
+}
+/* div.explore .explore-1 .none,div.explore .explore-2 .none,div.explore .explore-3 .none{
+    display: none;
+}
+div.explore .explore-1 .show,div.explore .explore-2 .show,div.explore .explore-3 .show{
+    width: 40%;
+    border: 1px solid #000;
+} */

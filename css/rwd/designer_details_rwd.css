@@ -1,0 +1,64 @@
+       /* -----------max-width: 1115px----------- */
+       @media screen and (max-width: 1115px){
+            div.profile_content > iframe {
+
+
+            }
+
+       }
+   
+   
+   /* -----------max-width: 992px----------- */
+    @media screen and (max-width: 992px){
+        .pic-1{
+            width: 20%;
+            height: 300px;
+        }
+        .al{ 
+            width: 40%;
+            height: 300px;
+        }
+
+    }
+     /* -----------max-width: 762px----------- */
+     @media screen and (max-width: 762px){
+        div.profile_all .exploredescript .breadcrumbs{
+            font-size: 14px;
+        }
+        .pic-1{
+            width: 33%;
+            height: 260px;
+        }
+        .al{ 
+            width: 66%;
+            height: 260px;
+        }
+
+    }
+
+   /* -----------max-width: 500px----------- */
+    @media screen and (max-width: 500px){
+        .pic-1{
+            width: 40%;
+            height: 250px;
+
+        }
+        .al{ 
+            width: 80%;
+            height: 250px;
+        }
+
+    }
+
+    @media screen and (max-width: 320px){
+        .pic-1{
+            width: 40%;
+            height: 150px;
+
+        }
+        .al{ 
+            width: 80%;
+            height: 150px;
+        }
+
+    }

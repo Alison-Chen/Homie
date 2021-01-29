@@ -274,7 +274,7 @@ div.pricing_pic > .more{
     .owl-carousel .customer_reviewall > .customer_banner{
         width: 60%;
         height: 400;
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
 
     }
     .customer_reviewall .reviewstar{

@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homie</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap" rel="stylesheet">   
-    <script src="./js/designer_details.js"></script>
+    
 </head>
 <body>
     <header class="header">
         <a href="./index.html" class="logo_img">
             <img src="./images/logo_02.png">
         </a>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     <nav class="nav">
         <ul class="link_list">
-            <li><a href="./index.html" class="-on"></a></li>
             <li>
                 <div class="how_block">
                     <span>How it works</span>
-                    <ul class="how_list">
+                    <ul class="how_list1 how_list">
                         <li>
                             <a href="./designers.html">Designers & details</a>
                         </li>
@@ -35,13 +39,20 @@
             <li><a href="./explore.html">Explore</a></li>
             <li><a href="./shop.html">Shop</a></li>
             <li><a href="./blog.html">Blog</a></li>
-            <li><a href="">Login |</a></li>
+            <li><a href="">Login</a></li>
+            <li class="seperate">|</li>
             <li><a href="">Sign up</a></li>
             </li>
         </ul>
         </nav>
     </header>
     <div class="profile_all">
+        <div class="exploredescript">
+            <div class="breadcrumbs">
+            <a href="./index.html"> Home </a> / 
+            <a href="./designer_details.html"> Designer's details</a> / <span class="page">Designer </span>   
+            </div>
+        </div>
         <div class=profile>
         <div class="pic">
             <img class="personpic" src="./images/P-1.png">
@@ -52,7 +63,11 @@
                 Available next week</p>
          </div>
         </div>
-        <div class = pic_all>
+        <div class="profile_info">
+            <input type="button" class="d" value="Pamela's design">
+            <input type="button" class="info" value="Profile Info">
+        </div>
+        <div class = "pic_all">
             <div class="row1">
                 <div class="pic-1">
                     <img class="b1" src="./images/b1.png">
@@ -62,12 +77,12 @@
                     <img class="b2" src="./images/b2.jpg">
                     <svg class="fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
                 </div>
-                <div class="pic-1">
+                <div class="pic-1 al">
                     <img class="b3" src="./images/b5.jpg">
                     <svg class="fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
                 </div>
             <div class="row2">
-                <div class="pic-1">
+                <div class="pic-1 al">
                     <img class="b4" src="./images/b3.jpg">
                     <svg class="fa-heart" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
                 </div>
@@ -82,10 +97,27 @@
             </div>
            </div>
         </div>
+        
+        <div class="profile_content">
+            <iframe width="560" height="300" src="https://www.youtube.com/embed/gC8ec_y6ewg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="pcontent">
+                <b>Design Aesthetic</b>
+                <div class="designer_style">
+                    <span>Modern</span>
+                    <span>Glam</span>
+                    <span>Classic</span>
+                </div>
+                <p>I love an Modern design! This allows the client to add personal touches from any style that they are attracted to. It could be a little memento or a coffee table that their great grandmother gave them and holds meaning. </p>
+                <b>Why I Love Online Interior Design</b>
+                <p>Design brings emotion and life into your home. In these busy times, it is important to make sure your home is your sanctuary! I am so passionate about design and I am so excited for you to see how we can make your room your most favorite place in the house!</p>
+            </div>
+        </div>
     </div>
     <footer class="footer">
         © 2021 Homie. All Rights Reserved.
     </footer> 
     <script src="js/set_favorite.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="js/change_page.js"></script>
 </body>
 </html>
