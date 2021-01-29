@@ -1,13 +1,14 @@
        /* -----------max-width: 1200px----------- */
        @media screen and (max-width: 1200px){
-        /* div.profile_all .exploredescript .breadcrumbs > a:nth-child(1){
-                margin-left: 200px;
-                border: 1px solid #000;
+        div.profile_all .exploredescript .breadcrumbs{
+                /* margin-left: 100px; */
+                /* border: 1px solid #000; */
+                margin-bottom: 45px;
 
-        } */
+         } 
             div.profile_content > iframe {
-                width: 400;
-                height: 300;
+                width: 560px;
+                height: 300px;
                 /* margin-left: 0px; */
             }
             div.profile_content .pcontent{
@@ -24,11 +25,11 @@
     @media screen and (max-width: 1007px){
         .pic-1{
             width: 20%;
-            height: 300px;
+            height: 250px;
         }
         .al{ 
             width: 40%;
-            height: 300px;
+            height: 250px;
         }
         div.profile_content > iframe {
             margin-bottom: 25px;
@@ -39,46 +40,41 @@
 
         }
     }
-     /* -----------max-width: 762px----------- */
-     @media screen and (max-width: 762px){
+
+
+     /* -----------max-width: 768px----------- */
+     @media screen and (max-width: 768px){
         div.profile_content > iframe {
-            width: 350;
-            height: 250;
+            width: 350px;
+            height: 250px;
         }
         .pic-1{
-            width: 33%;
-            height: 260px;
+            width: 40%;
+            /* height: 230px; */
         }
-        .al{ 
-            width: 66%;
-            height: 260px;
+        .al{
+            width: 40%;
+            /* height: 230px; */
         }
 
     }
 
    /* -----------max-width: 500px----------- */
     @media screen and (max-width: 500px){
+        div.pic_all{
+            padding-right: 10px;
+        }
         .pic-1{
-            width: 40%;
-            height: 250px;
+            width: 100%;
+            height: 450px;
 
         }
         .al{ 
-            width: 80%;
-            height: 250px;
+            width: 100%;
+            height: 450px;
+       
         }
 
-    }
+    } 
 
-    @media screen and (max-width: 320px){
-        .pic-1{
-            width: 40%;
-            height: 150px;
-
-        }
-        .al{ 
-            width: 80%;
-            height: 150px;
-        }
-
-    }
+ 
