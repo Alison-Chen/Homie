@@ -1,0 +1,275 @@
+
+.p_all{
+    background-color: #fff;
+}
+div.furniture_all{
+    /* width:1200px; */
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing:1px;
+    /* margin-bottom: 20px; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* border:1px solid red; */
+}
+
+div.furniture_all .furniture1{
+    /* border:1px solid red; */
+    /* position: relative; */
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 50px; */
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+
+div.furniture_all .furniture1 > .bg{
+    width: 300px;
+    padding: 5px 0;
+    z-index: 1;
+    /* left: 400px; */
+    /* top: 50%; */
+    /* transform: translate(-50%,-50%); */
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+    color:#585858;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+div.furniture_all .furniture1 > .bg p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 25px;
+    color:#585858;
+    /* border: 1px solid #000; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+
+div.furniture_all .furniture1 .living_room{
+    background-image: url(../images/livingroom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 600px;
+    margin: 0 10px;
+}
+div.furniture_all .furniture1 .dining_room{
+    background-image: url(../images/f13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 600px;
+    margin: 0 10px;
+}
+div.furniture_all .furniture1 .bedrooms{
+    background-image: url(../images/bedrooms.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 600px;
+    margin: 0 10px;
+}
+
+div.furniture_all .furniture1 .bedrooms p:hover{
+    font-size: 25px;
+}
+div.furniture_all .furniture1 .dining_room p:hover{
+    font-size: 25px;
+}
+div.furniture_all .furniture1 .living_room p:hover{
+    font-size: 25px;
+}
+
+div.furniture_all .furniture1 .living_room, .dining_room, .bedrooms{
+    position: relative;
+    /* opacity: 0.7; */
+    /* height:400px;
+    width:250px; */
+    /* overflow: hidden; */
+}
+div.furniture_all .furniture1 .living_room p, .dining_room p, .bedrooms p{
+    position: absolute;
+    text-align:center;
+    bottom: 20px;
+    margin: 0 auto;
+    width:100%;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    transition: all .3s;
+    /* font-weight: bold; */
+}
+
+div.pt_all .pt >p{
+    color:#738494;
+    font-size: 24px;
+    font-weight: bold;
+    /* border:1px solid red; */
+    /* border-radius: 10px; */
+}
+
+/* product all */
+div.pt_all .pt .allitems_button >span{
+    background-image: url(../images/expand-button.png);
+    background-position: right 10px bottom 6px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    padding: 0;
+    /* margin:0 5px; */
+    margin: 0 auto;
+    width:110px;
+    display: inline-block;
+    border-radius: 10px;
+    border:1px solid  rgb(33, 37, 41);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: 200;
+
+}
+div.pt_all .pt .allitems_button{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+} 
+
+/* div.shop_banner{ 
+    background-color: #e0e3e1;
+  
+    /* width: 100%; */
+    /* height: 500px; */
+/* } */
+/* div.shop_banner .shopimg {
+    background-image: url("../images/shop_banner.png");
+    background-repeat: no-repeat;
+    background-position: right 150px top 150px;
+    background-size: 40%;
+    height: 500px;
+    /* border: 1px solid red; */
+    /* position: relative; */
+   
+/* }  */ 
+
+/* div.shop_banner .shopimg > h1{
+    /* border: 1px solid #000; */
+    /* position: absolute;
+    top: 35%;
+    left: 250px; */
+    /* font-weight: bold; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 20px; */
+ 
+/* }  */
+
+
+
+div.pt_all{
+  
+    /* max-width: 1200px; */
+    background-color: #fff;
+}
+.pt{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+/* .pt{
+    margin: 0 auto;
+} */
+
+div.allchair{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+div.allchair .chairs{
+    margin: 0 auto;
+    width: 40%;
+    /* height: 250px; */
+    text-align: center;
+    /* border: 1px solid #000; */
+    /* font-size: 0; */
+    text-align: center;
+    display: block;
+    margin: 10px 0px;
+    transform-style: preserve-3d;
+
+}
+
+.chairs img{
+    margin: 0 auto;
+    width: 250px;
+    height: 375px;
+    box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.1);
+}
+
+div.allchair .chair_0 img{
+    padding: 60px 20px 20px 20px;
+
+}
+div.allchair .chair_2 img{
+    padding: 70px 0px 0px 0px;
+    /* width: 20%; */
+}
+div.allchair .chair_3 img{
+    padding: 100px 20px 30px 20px;
+   
+} 
+div.allchair .chair_4 img{
+    padding: 80px 30px 30px 30px;
+    /* width: 30%; */
+}
+
+div.allchair .chair_5 img{
+    padding: 35px 30px 0px 30px;
+    /* width: 30%; */
+}
+
+div.allchair .chair_1,.chair_3,.chair_5,.chair_7{
+    padding-top: 120px;
+}
+
+div.pt_all ul{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 15px;
+    /* position: absolute; */
+    /* width:auto; */
+}
+
+@media screen and (max-width:768px){
+    div.allchair{
+        flex-direction: column;
+    
+    }
+    div.allchair .chairs{
+        margin: 30px;
+
+    }
+    div.allchair .chair_1,.chair_3,.chair_5,.chair_7{
+        padding-top: 0px;
+    
+    }
+}

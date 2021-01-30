@@ -29,7 +29,7 @@ div.design_process_all > h2{
     color:#89C8C6;
     width:100%;
     margin: 30px;
-}
+} 
 div.design_process_all{
     display: flex;
     flex-wrap: wrap ;
@@ -41,7 +41,7 @@ div.design_process_all{
     background-color: white;
     
     
-}
+} 
 div.design_process_all .step1, .step2, .step3, .step4, .step5{
     /* border:1px solid red; */
     width:30%;
@@ -53,14 +53,14 @@ div.design_process_all .step1, .step2, .step3, .step4, .step5{
     position: relative;
 } 
 
-  div.design_process_all .pic{
-    width: 100%;
+  div.design_process_all .pic{ */
+    width: 100%; 
     vertical-align: bottom; 
     /* border:1px solid red; */
- } 
+  }  
   div.design_process_all > h4{
     /* border: 1px solid red; */
-    border-radius: 20px;
+     border-radius: 20px;
     width: 150px;
     height: 30px;
     text-align: center;
@@ -68,10 +68,9 @@ div.design_process_all .step1, .step2, .step3, .step4, .step5{
     background-color: #89C8C6;
     box-shadow: 1px 1px 0px 0px white;
     cursor: pointer;
-    margin-bottom: 30px; 
-    
-}
-div.design_process_all > h4:hover{
+    margin-bottom: 30px;  
+} 
+div.design_process_all > h4:hover{ 
     background-color: rgb(247, 122, 100);
 }
 div.design_process_all .step1 .pic{
@@ -86,15 +85,16 @@ div.design_process_all .step1, .step2, .step3{
 div.design_process_all .step4, .step5{
     margin: 0 90px;
     margin-bottom: 60px;
-} 
- div.border{
+}  
+
+div.border{
     border-radius: 50%;
     width:15px;
     height: 15px;
     background-color:#89C8C6 ;
     /* border:1px solid red; */
     
- } 
+ }   
 
  div.line{
     width: 350px;
@@ -105,7 +105,8 @@ div .step4 >.line ,.step5 >.line{
     width: 500px;
    
 } 
-/* div.design_process_all p{
+
+div.design_process_all p{
     /* border: 1px solid red; */
  }
 
@@ -114,11 +115,15 @@ div.border, .line{
     bottom: -20px;
     left: 0; 
     
- }  
+ }   
 
 div.border{
     transform: translateY(50%);
-}
+} 
+
+
+
+/* =============== */
 div.designers_all{
     color: rgb(33, 37, 41);
     max-width: 1000px;
