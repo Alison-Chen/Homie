@@ -36,7 +36,7 @@ div.decorate .underline:hover{
     color:rgb(115, 132, 148);
     font-size: 17px;
     font-weight: bold;
-    /* border-bottom: 1px solid rgb(115, 132, 148); */
+    border-bottom: 1px solid rgb(115, 132, 148);
 }
 
 div.blog_all .decorate .search{
@@ -70,7 +70,7 @@ div.blog_all .decorate .search input{
 
 div.blog_all .blog-1{
     max-width: 1000px;
-    height: 400px;
+    /* height: 400px; */
     border: 1px solid #c28800;
     margin: 0 auto;
     display: flex;
@@ -78,26 +78,30 @@ div.blog_all .blog-1{
     align-items: center;
     overflow: hidden;
     margin-bottom: 50px;   
-   
+   font-size: 0;
 }
+
 div.blog_all .blog-1 .content-1{
-    padding: 50px;
+    padding: 30px;
+    margin-left: 50px;
+
+    /* border: 1px solid #000; */
+    font-size: 16px;
 }
 
 
 div.blog_all .blog-2 .content-2{
-  margin-left: 50px;
-  /* padding: 500px; */
+    margin-left: 50px;
+    padding: 0 10px;
+    width: 300px;
     /* border: 1px solid #000; */
+    font-size: 16px;
 }
-   
-div.blog_all .blog-2 .content-2 >p, h2{ 
-    margin-bottom: 10px;
-}
+
 
 div.blog_all .blog-2{
     max-width: 1000px;
-    height: 400px;
+    max-height: 400px;
     /* border: 1px solid blue; */
     margin: 0 auto;
     display: flex;
@@ -107,13 +111,20 @@ div.blog_all .blog-2{
     overflow: hidden;
     background-color: #e9dfc1;
     margin-bottom: 50px;
+    font-size: 0;
     
 }
-div.blog_all .blog-2 .blog_img2 img{
-    max-width:751px;
+div.blog_all .blog-1 .blog_img1 img,div.blog_all .blog-2 .blog_img2 img{
+    max-width: 761px;
+
+} 
+
+.blog_img1 img,.blog_img2 img{
+    width: 100%;
 }
 
-div.stories_all .story_row1, .story_row2{
+
+div.stories_all{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,30 +133,31 @@ div.stories_all .story_row1, .story_row2{
     max-width: 1200px;
   
 }
-div.stories_all .story_row1 .story1 img, .story2 img {
-    max-width:400px;
-    height: 400px;
+div.stories_all .story1, .story2{
+    width: 50%;
+    margin: 10px;
+    
 }
-div.stories_all .story_row2 .story3 img, .story4 img {
-    max-width:400px;
-    height: 400px;
+div.stories_all .story3 img, .story4 img {
+    max-width:100%;
+
 }
-div.stories_all .story_row1 .story1, .story2 , .story3, .story4 > p{
+div.stories_all .story1, .story2 , .story3, .story4 > p{
     max-width:400px;
     
     /* border: 1px solid red; */
 }
-div.stories_all .story_row1 .story1, .story2 , .story3, .story4 > img{
+div.stories_all .story1, .story2 , .story3, .story4 > img{
     cursor: pointer;
 }
 div.stories_all .story_row1{
     /* margin-left: 30px; */
     /* border: 1px solid blue; */
 }
-div.stories_all .story_row1 .story1, .story3{
+div.stories_all .story1, .story3{
     margin-right: 50px;
 }
-div.stories_all .story_row1 .story_title, .story_row2 .story_title{
+div.stories_all .story_title, .story_row2 .story_title{
     font-size: 12px;
     font-weight: bold;
     color:#c28800;
