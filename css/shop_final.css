@@ -24,7 +24,7 @@ div.furniture_all{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* padding-top: 60px; */
+    padding-top: 60px;
     /* border: 1px solid #000; */
 }
 
@@ -62,7 +62,7 @@ div.furniture_all{
     z-index: 1;
     font-size: 58px;
     /* font-family: 'Roboto', sans-serif; */
-    color:#738494;
+    color:black;
     font-weight: bold;
     font-size: 32px;
     position: relative;

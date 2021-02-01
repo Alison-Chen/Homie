@@ -8,7 +8,8 @@
             .line_all{
                 width: 100%;
                 text-align: center;
-                margin-bottom: 20px;
+                /* margin-bottom: 5px; */
+                /* border: 1px solid #000; */
             }
             div.furniture_all .living_room img,.dining_room img,.bedrooms img{
                 height: 480px;
@@ -29,6 +30,11 @@
             }
             .fline{
                 display: none;
+
+            }
+            .all_room{
+                 padding-top: 30px;
+            
 
             }
 
