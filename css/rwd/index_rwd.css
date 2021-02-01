@@ -73,10 +73,12 @@
         }
  
     div.design_banner .design_process_1{
-        width: 100%;
+        margin: 0;
+        width: 70%;
         /* border: 1px solid #000; */
         padding-top: 60%;
-        background-size: 40%;
+        background-size: 50%;
+        /* border: 1px solid #000; */
 
     }
     div.design_banner .design_process_1 > p{
@@ -84,7 +86,10 @@
         font-size: 16px;
         margin-top: 30px;
         margin: 0 auto;
-        padding: 0 35%;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        /* border: 1px solid #000; */
         /* border: 1px solid red; */
         /* margin-right: 5px; */
     }
@@ -98,7 +103,9 @@
         font-size: 16px;
         margin-top: 30px;
         margin: 0 auto;
-        padding: 0 35%;
+        /* padding: 0 35%; */
+        width: 100%;
+        text-align: center;
         /* border: 1px solid red; */
     }
     div.design_banner .design_process_3{
@@ -111,8 +118,10 @@
         bottom: 10%;
         margin-top: 30px;
         margin: 0 auto;
-        padding: 0 35%;
+        /* padding: 0 35%; */
         padding-bottom: 10%;
+        width: 100%;
+        text-align: center;
         /* border: 1px solid red; */
 
     } 
@@ -160,15 +169,14 @@
     }
     div.design_banner .design_process_1 > p{
         font-size: 14px;
-        padding: 0 30%;
     }
     div.design_banner .design_process_2 > p{
-        padding: 0 30%;
+        /* padding: 0 30%; */
         font-size: 14px;
     }
     div.design_banner .design_process_3 > p{
         font-size: 14px;
-        padding: 0 30%;
+        /* padding: 0 30%; */
     }
 }
 

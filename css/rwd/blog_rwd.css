@@ -1,9 +1,8 @@
        /* -----------max-width: 768px----------- */
        @media screen and (max-width: 768px){
-        div.blog_all .blog-1 .content-1,.content-2{
-            /* justify-content:center; */
-            /* align-items: center; */
+        div.blog_all .blog-1 .content-1,.blog-2 .content-2{
             margin: 0 auto;
+            /* border: 1px solid #000; */
         }
         div.blog_all .blog-2 .content-2{
             padding: 30px 10px;
@@ -12,8 +11,25 @@
         div.blog_all .blog-1, .blog-2{
             display: flex;
             flex-wrap: wrap;
+        }
+        div.stories_all .story1, .story2, .story3{
+            width: 55%;
+        }
+        div.blog_all .blog-2 .content-2{
+            /* width:100%; */
+            /* border: 1px solid #000; */
+       }
+
+       /* -----------max-width: 500px----------- */
+       @media screen and (max-width: 500px){
+        div.blog_all .blog-1, .blog-2 h2{
+                font-size:22px;
+        }
+        div.stories_all .story1, .story2, .story3{
+            width: 75%;
 
         }
-       
-        
-       }
+        div.decorate .underline{
+            margin :15px;
+        }
+    }

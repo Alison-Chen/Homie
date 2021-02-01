@@ -33,34 +33,56 @@
             }
 
     } 
+    /* -----------max-width: 992px----------- */
+    @media screen and (max-width:992px){
+        div.allchair .chairs{
+            width: 40%;
+        }
+    }
 
-        /* -----------max-width: 768px----------- */
-        @media screen and (max-width: 768px){
-            .line_all{
-                margin: 5px 15px 30px 15px;
-
-                width: 100%;
-            }
-            .all_room{
-            margin-left:0px;
-            font-size: 0;
+    /* -----------max-width: 768px----------- */
+    @media screen and (max-width:768px){
+        div.allchair{
+            flex-direction: column;
+            align-items: center;
+        }
+        div.allchair .chairs{
+            margin: 30px 0px;
             width: 100%;
         }
-            
-            div.furniture_all .living_room,.dining_room,.bedrooms{
-                width: 100%;
-                margin:0;
-            }
-            .bg{
-                font-size: 24px;
-            
-            }
-            .p_all{
-                padding-bottom: 50px;
-            
-            }
-          
-        } 
+        div.allchair .chairs img{
+            width: 50%;
+            padding: 50px 0 30px 0;
+            object-fit: contain;
+        }
+        div.allchair .chair_1,.chair_3,.chair_5,.chair_7{
+            padding-top: 0px;
+        }
+        .line_all{
+            margin: 5px 15px 30px 15px;
+
+            width: 100%;
+        }
+        .all_room{
+        margin-left:0px;
+        font-size: 0;
+        width: 100%;
+        }
+        
+        div.furniture_all .living_room,.dining_room,.bedrooms{
+            width: 100%;
+            margin:0;
+        }
+        .bg{
+            font-size: 24px;
+        
+        }
+        .p_all{
+            padding-bottom: 50px;
+        
+        }
+        
+    } 
          /* -----------max-width: 564px----------- */
          @media screen and (max-width: 564px){
             .all_room{

@@ -1,13 +1,3 @@
-@import "./common/header.css";
-@import "./common/banner.css";
-@import "./common/footer.css";
-@import "./common/body.css";
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
 div.nav{
     background-color: rgb(246, 246, 246);
     border: 1px solid red;
@@ -53,7 +43,7 @@ div.design_process_all .step1, .step2, .step3, .step4, .step5{
     position: relative;
 } 
 
-  div.design_process_all .pic{ */
+  div.design_process_all .pic{ 
     width: 100%; 
     vertical-align: bottom; 
     /* border:1px solid red; */
@@ -107,7 +97,8 @@ div .step4 >.line ,.step5 >.line{
 } 
 
 div.design_process_all p{
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    color:#585858;
  }
 
 div.border, .line{
@@ -144,7 +135,7 @@ div.designers_all .more{
     
 }
 div.designers_all .more > h2{
-    color:#89C8C6;
+    color:#738494;
     margin-right: 30px;
  
 }
@@ -156,17 +147,23 @@ div.designers_all .more .designers > p{
 div.style,div.designers{
     /* border: 1px solid red; */
     display: flex;
-    margin-top: 11px;
+    margin-top: 40px;
     padding:0 5px;
     
 }
-div.designers_all .style{
-    /* border:1px solid red; */
-    padding:20px 0;
-    
+
+div.style > p,div.designers > p{
+    margin-right: 10px;
 }
 
+/* btn */
+div.designers_all .designer_btn{
+    width: 150px;
+    height: 30px;
 
+}
+
+/* 
  div.style .button{
     border: 1px solid #000;
     border-radius: 20px;
@@ -176,31 +173,8 @@ div.designers_all .style{
     padding:2px 5px;
     text-align: center;
     margin-left: 10px;
-}
-div.designers .button{
-    border: 1px solid #000;
-    border-radius: 20px;
-    width: 150px;
-    height: 30px;
-    background-color:white;
-    padding:2px 10px;
-    text-align: center;
-    margin-left: 10px;
-    font-size: 13px;
-}
-div.designers_all .button{
-    background-image: url("../images/expand-button.png");
-    background-repeat: no-repeat;
-    background-size: 10px;
-    background-position: right 10px bottom 7px;
-    display: inline-block;
-    width: 150px;
-    height: 30px;
-    font-size: 14px;
-    color:rgb(33, 37, 41);
-    background-color:white ;
-    border-color: gray;
-}
+} */
+
 
 div.designerprofile{
     /* width:300px; */

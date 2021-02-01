@@ -11,8 +11,13 @@
         div.product_detail .product_title .add_button{
             margin-top: 0px;
         }
+        div.maybe {
+            margin: 30px;
+        }
+        div.maybe > p{
+            margin-right: 0;
+        }
 
-      
      }
      /* -----------max-width: 576px----------- */
      @media screen and (max-width: 576px){
@@ -20,7 +25,7 @@
         width:300px;
         height: 300px;
         text-align: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     }
 
@@ -30,7 +35,7 @@
             -webkit-mask-position-x:250px;
             height: 250px;
             text-align: center;
-            border: 1px solid red;
+            /* border: 1px solid red; */
           }
             div.product_detail .product_title{
              margin-left: 15px;

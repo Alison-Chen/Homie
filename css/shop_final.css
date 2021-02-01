@@ -275,7 +275,7 @@ ul{
     cursor: pointer;
 }
 
-@media screen and (max-width:992px){
+/* @media screen and (max-width:992px){
     div.allchair .chairs{
         width: 40%;
     }
@@ -297,7 +297,7 @@ ul{
     div.allchair .chair_1,.chair_3,.chair_5,.chair_7{
         padding-top: 0px;
     }
-}
+} */
 
 
 

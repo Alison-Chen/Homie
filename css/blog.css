@@ -5,10 +5,10 @@
 }
 
 div.blog_all{
-    font-family: 'Roboto Condensed', 'sans-serif';
     max-width:1200px;
     /* border: 1px solid red; */
     margin: 0 auto;
+    padding-top: 100px;
 }
 div.decorate{
     display:flex;
@@ -34,9 +34,9 @@ div.decorate .underline{
 }
 div.decorate .underline:hover{
     color:rgb(115, 132, 148);
-    font-size: 17px;
+    /* font-size: 17px; */
     font-weight: bold;
-    border-bottom: 1px solid rgb(115, 132, 148);
+    /* border-bottom: 1px solid rgb(115, 132, 148); */
 }
 
 div.blog_all .decorate .search{
@@ -101,14 +101,14 @@ div.blog_all .blog-2 .content-2{
 
 div.blog_all .blog-2{
     max-width: 1000px;
-    max-height: 400px;
+    /* max-height: 400px; */
     /* border: 1px solid blue; */
     margin: 0 auto;
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: row-reverse;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #e9dfc1;
     margin-bottom: 50px;
     font-size: 0;
@@ -116,6 +116,7 @@ div.blog_all .blog-2{
 }
 div.blog_all .blog-1 .blog_img1 img,div.blog_all .blog-2 .blog_img2 img{
     max-width: 761px;
+    object-fit: contain;
 
 } 
 
@@ -128,35 +129,47 @@ div.stories_all{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 30px;
     max-width: 1200px;
-  
-}
-div.stories_all .story1, .story2{
-    width: 50%;
-    margin: 10px;
+   
     
 }
-div.stories_all .story3 img, .story4 img {
-    max-width:100%;
 
+div.stories_all .story1, .story2, .story3, .story4 > p{
+    font-size:  14px;
+    /* font-family: 'Roboto', sans-serif; */
 }
-div.stories_all .story1, .story2 , .story3, .story4 > p{
-    max-width:400px;
+
+div.stories_all img {
+    width: 100%;
+}
+
+div.stories_all .story1, .story2, .story3{
+    width: 35%;
+    /* border: 1px solid #000; */
+    margin: 15px 20px 15px 20px;
+    
+}
+/* div.stories_all .story4{
+    border: 1px solid #000;
+    width: 70%;
+    height: 50%;
+   
+} */
+
+/* div.stories_all .story1, .story2 , .story3, .story4 > p{
+    max-width:400px; */
     
     /* border: 1px solid red; */
-}
+/* } */
 div.stories_all .story1, .story2 , .story3, .story4 > img{
     cursor: pointer;
 }
-div.stories_all .story_row1{
-    /* margin-left: 30px; */
-    /* border: 1px solid blue; */
-}
-div.stories_all .story1, .story3{
+
+/* div.stories_all .story1, .story3{
     margin-right: 50px;
-}
+} */
 div.stories_all .story_title, .story_row2 .story_title{
     font-size: 12px;
     font-weight: bold;
