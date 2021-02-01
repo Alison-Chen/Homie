@@ -8,24 +8,71 @@
             .line_all{
                 width: 100%;
                 text-align: center;
+                margin-bottom: 20px;
             }
             div.furniture_all .living_room img,.dining_room img,.bedrooms img{
                 height: 480px;
 
             }
+            br{
+                word-spacing: no-wrap;
+                display: none;
+               
+            }
+            /* .line_all{
+                margin-bottom: 100px;
+
+            } */
+            .bg{
+                font-size: 28px;
+            
+            }
+            .fline{
+                display: none;
+
+            }
 
     } 
 
-        /* -----------max-width: 650px----------- */
-        /* @media screen and (max-width: 650px){
-            div.allchair .chairs{
-                width: 55%;
-               } 
-                .chairs img{
-                   width: 250px;
-                   min-height: 150px;
-               } 
-               div.allchair .chair_0 img{
-                   padding: 20px 10px 20px 10px;
-               }
-        } */ 
+        /* -----------max-width: 768px----------- */
+        @media screen and (max-width: 768px){
+            .line_all{
+                margin: 5px 15px 30px 15px;
+
+                width: 100%;
+            }
+            .all_room{
+            margin-left:0px;
+            font-size: 0;
+            width: 100%;
+        }
+            
+            div.furniture_all .living_room,.dining_room,.bedrooms{
+                width: 100%;
+                margin:0;
+            }
+            .bg{
+                font-size: 24px;
+            
+            }
+            .p_all{
+                padding-bottom: 50px;
+            
+            }
+          
+        } 
+         /* -----------max-width: 564px----------- */
+         @media screen and (max-width: 564px){
+            .all_room{
+            flex-direction: column;
+         }
+            div.furniture_all .living_room,.dining_room,.bedrooms{
+                max-width: 100%;
+
+            }
+            div.furniture_all .living_room img,.dining_room img,.bedrooms img{
+                height: 300px;
+                width:100%;
+            
+            }
+        }
