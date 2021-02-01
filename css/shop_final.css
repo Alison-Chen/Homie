@@ -3,7 +3,8 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding-bottom: 150px;
+    padding-bottom: 85px;
+    /* padding-top: 30px; */
 }
 div.furniture_all{
     margin: 0 auto;
@@ -23,6 +24,7 @@ div.furniture_all{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    /* padding-top: 60px; */
     /* border: 1px solid #000; */
 }
 
@@ -34,7 +36,8 @@ div.furniture_all{
     position: relative;
     margin: 0 100px 0 130px; 
     /* border: 1px solid #000; */
-    /* animation: text 1s ; */
+    animation: text 1s ;
+    /* left: -5%; */
     /* top: 200px; */
 }
 
@@ -74,7 +77,7 @@ div.furniture_all{
     }
     100%{
         /* left: 10%; */
-        left: 5%;
+        left: 0%;
     }
 }
 .bg p{
