@@ -6,7 +6,6 @@
 @import "./designer_details.css";
 @import"./designer.css";
 @import"./explore.css";
-/* @import"./shop.css"; */
 @import"./product.css";
 @import"./blog.css";
 @import "./common/rwd/header_rwd.css";
@@ -15,4 +14,6 @@
 @import"./rwd/explore_rwd.css";
 @import"./rwd/designer_details_rwd.css";
 @import"./shop_final.css";
-
+@import"./rwd/product_rwd.css";
+@import"./rwd/shop_rwd.css";
+@import"./rwd/blog_rwd.css";

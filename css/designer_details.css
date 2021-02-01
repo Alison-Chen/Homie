@@ -112,25 +112,30 @@ div.pic_all{
 
 
 
+
 /* ===========PROFILE_INFO ============== */
 div.profile_all .profile_info{
     text-align: center;
 }
-div.profile_all .profile_info .info{
-    /* border: 1px solid black; */
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    /* border:none; */
+
+div.profile_all .profile_info .info, .show{
+    border: 1px solid black; 
+    /* background-color: black;  */
+    /* color: white;  */
+    border-radius: 15px; 
+    border:none; 
     height: 30px;
     width: 120px;
     margin: 0 auto;
-}
+} 
 
 div.profile_all .profile_info .d{
-    background-color: transparent;
-    color: black;
-    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    margin: 0 auto;
 }
 input[type="button"]:focus{
     outline: none;

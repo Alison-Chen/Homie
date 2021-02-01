@@ -1,9 +1,11 @@
 
 .p_all{
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
 }
 div.furniture_all{
-    /* width:1200px; */
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     /* font-weight: bold; */
@@ -11,93 +13,107 @@ div.furniture_all{
     /* margin-bottom: 20px; */
     padding-top: 20px;
     display: flex;
-    flex-direction: column;
-    /* justify-content: flex-end; */
-    /* align-items: center; */
-    /* border:1px solid red; */
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid red; */
 }
-
-div.furniture_all .furniture1{
-    /* border:1px solid red; */
-    /* position: relative; */
+.all_room{
     display: flex;
     justify-content: flex-end;
-    /* margin-right: 50px; */
-    margin-bottom: 100px;
     align-items: center;
+    /* border: 1px solid #000; */
 }
 
 
-div.furniture_all .furniture1 > .bg{
-    width: 300px;
+.line_all{
+    /* margin-left:50px; */
+    /* margin-top: 150px; */
+    width:400px;
+    position: relative;
+    margin: 0 100px 0 130px; 
+    /* border: 1px solid #000; */
+    /* animation: text 1s ; */
+    /* top: 200px; */
+}
+
+.fline{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #738494;
+    top: 250px;
+}
+/* div.furniture_all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+} */
+
+
+.bg{
+    width: 100%;
     padding: 5px 0;
     z-index: 1;
-    /* left: 400px; */
-    /* top: 50%; */
-    /* transform: translate(-50%,-50%); */
-    font-size: 24px;
+    font-size: 58px;
     /* font-family: 'Roboto', sans-serif; */
-    color:#585858;
+    color:#738494;
     font-weight: bold;
     font-size: 32px;
+    position: relative;
+    /* border: 1px solid #000; */
+    /* margin-right: 250px; */
+    
 }
-
-div.furniture_all .furniture1 > .bg p{
+@keyframes text{
+    0%{
+        /* width: 0; */
+        left: -100%;
+    }
+    100%{
+        /* left: 10%; */
+        left: 5%;
+    }
+}
+.bg p{
     font-size: 14px;
     margin-top: 20px;
     line-height: 25px;
-    color:#585858;
+    color: #738494;
     /* border: 1px solid #000; */
     /* font-family: 'Roboto', sans-serif; */
 }
 
-
-div.furniture_all .furniture1 .living_room{
-    background-image: url(../images/livingroom.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:300px;
-    height: 600px;
-    margin: 0 10px;
+div.furniture_all .living_room,.dining_room,.bedrooms{
+    max-width: 300px;
 }
-div.furniture_all .furniture1 .dining_room{
-    background-image: url(../images/f13.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:300px;
+div.furniture_all .living_room img,.dining_room img,.bedrooms img{
+    width: 100%;
     height: 600px;
-    margin: 0 10px;
-}
-div.furniture_all .furniture1 .bedrooms{
-    background-image: url(../images/bedrooms.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:300px;
-    height: 600px;
-    margin: 0 10px;
 }
 
-div.furniture_all .furniture1 .bedrooms p:hover{
+/* div.furniture_all .furniture1 .bedrooms p:hover{
     font-size: 25px;
 }
 div.furniture_all .furniture1 .dining_room p:hover{
     font-size: 25px;
-}
-div.furniture_all .furniture1 .living_room p:hover{
+} */
+
+div.furniture_all .move:hover p{
     font-size: 25px;
 }
 
-div.furniture_all .furniture1 .living_room, .dining_room, .bedrooms{
+div.furniture_all .living_room, .dining_room, .bedrooms{
     position: relative;
+    margin: 0 10px;
     /* opacity: 0.7; */
     /* height:400px;
     width:250px; */
     /* overflow: hidden; */
 }
-div.furniture_all .furniture1 .living_room p, .dining_room p, .bedrooms p{
+div.furniture_all .living_room p, .dining_room p, .bedrooms p{
     position: absolute;
     text-align:center;
     bottom: 20px;
@@ -112,7 +128,7 @@ div.furniture_all .furniture1 .living_room p, .dining_room p, .bedrooms p{
 
 div.pt_all .pt >p{
     color:#738494;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     /* border:1px solid red; */
     /* border-radius: 10px; */
@@ -141,36 +157,8 @@ div.pt_all .pt .allitems_button{
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 } 
-
-/* div.shop_banner{ 
-    background-color: #e0e3e1;
-  
-    /* width: 100%; */
-    /* height: 500px; */
-/* } */
-/* div.shop_banner .shopimg {
-    background-image: url("../images/shop_banner.png");
-    background-repeat: no-repeat;
-    background-position: right 150px top 150px;
-    background-size: 40%;
-    height: 500px;
-    /* border: 1px solid red; */
-    /* position: relative; */
-   
-/* }  */ 
-
-/* div.shop_banner .shopimg > h1{
-    /* border: 1px solid #000; */
-    /* position: absolute;
-    top: 35%;
-    left: 250px; */
-    /* font-weight: bold; */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-size: 20px; */
- 
-/* }  */
-
 
 
 div.pt_all{
@@ -189,9 +177,7 @@ div.pt_all{
       margin: 0 auto;
 }
 
-/* .pt{
-    margin: 0 auto;
-} */
+
 
 div.allchair{
     display:flex;
@@ -203,9 +189,9 @@ div.allchair{
 }
 div.allchair .chairs{
     margin: 0 auto;
-    width: 40%;
+    width: 30%;
     /* height: 250px; */
-    text-align: center;
+    /* text-align: center; */
     /* border: 1px solid #000; */
     /* font-size: 0; */
     text-align: center;
@@ -244,6 +230,23 @@ div.allchair .chair_5 img{
     /* width: 30%; */
 }
 
+div.allchair p{
+    text-align: center;
+} 
+
+div.allchair .chairs a{
+    text-decoration: none;
+    color: black; 
+    margin: 0;
+    display: block;
+}
+
+div.allchair .chairs span{
+    font-weight: bold;
+    display: block;
+
+}
+
 div.allchair .chair_1,.chair_3,.chair_5,.chair_7{
     padding-top: 120px;
 }
@@ -259,17 +262,49 @@ div.pt_all ul{
     /* width:auto; */
 }
 
+select{
+    border: 2px solid #738494;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: 0;
+    width: 100px;
+    text-align: center;
+}
+
+option{
+    border-radius: 20px;
+    /* background-color: #eeeeee; */
+}
+
+ul{
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px){
+    div.allchair .chairs{
+        width: 40%;
+    }
+}
 @media screen and (max-width:768px){
     div.allchair{
         flex-direction: column;
-    
+        align-items: center;
     }
     div.allchair .chairs{
-        margin: 30px;
-
+        margin: 30px 0px;
+        width: 100%;
+    }
+    div.allchair .chairs img{
+        width: 50%;
+        padding: 50px 0 30px 0;
+        object-fit: contain;
     }
     div.allchair .chair_1,.chair_3,.chair_5,.chair_7{
         padding-top: 0px;
-    
     }
 }
+
+
+
+

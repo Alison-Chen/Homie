@@ -1,0 +1,22 @@
+       /* -----------max-width: 1100px----------- */
+       @media screen and (max-width: 1100px){
+        div.blog_all .blog-1{
+            /* max-width: 900px; */
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        div.blog_all .blog-1 .content-1{
+            padding: 50px;
+
+        }
+        div.blog_all .blog-2{
+            /* max-width: 900px; */
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        div.stories_all .story_row1 .story1 img, .story2 img {
+            width: 100%;
+        }
+       }

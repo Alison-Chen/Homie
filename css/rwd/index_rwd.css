@@ -85,7 +85,7 @@
         margin-top: 30px;
         margin: 0 auto;
         padding: 0 35%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         /* margin-right: 5px; */
     }
     div.design_banner .design_process_2{
@@ -113,7 +113,7 @@
         margin: 0 auto;
         padding: 0 35%;
         padding-bottom: 10%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
     } 
     .pricing_picall{

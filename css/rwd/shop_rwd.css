@@ -1,0 +1,31 @@
+
+    /* -----------max-width: 1000px----------- */
+     @media screen and (max-width: 1000px){
+            div.furniture_all{
+                padding-top: 100px;
+                flex-wrap: wrap;
+            }
+            .line_all{
+                width: 100%;
+                text-align: center;
+            }
+            div.furniture_all .living_room img,.dining_room img,.bedrooms img{
+                height: 480px;
+
+            }
+
+    } 
+
+        /* -----------max-width: 650px----------- */
+        /* @media screen and (max-width: 650px){
+            div.allchair .chairs{
+                width: 55%;
+               } 
+                .chairs img{
+                   width: 250px;
+                   min-height: 150px;
+               } 
+               div.allchair .chair_0 img{
+                   padding: 20px 10px 20px 10px;
+               }
+        } */ 

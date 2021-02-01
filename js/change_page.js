@@ -8,12 +8,15 @@ const profile_content = document.querySelector('.profile_content');
 d.addEventListener("click",function(){
     pic_all.style.display = 'flex';
     profile_content.style.display = 'none';
+    d.classList.add("d");
+    info.classList.remove("d");
 
 });
 
 info.addEventListener("click",function(){
     pic_all.style.display = 'none';
     profile_content.style.display = 'flex';
-console.log('click')
+    info.classList.add("d");
+    d.classList.remove("d");
 
 })
