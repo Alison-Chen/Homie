@@ -174,3 +174,7 @@ div.maybe .may .m4{
    /* border: 1px solid red; */
  }   
 
+div.may .product{
+    display: flex;
+
+}

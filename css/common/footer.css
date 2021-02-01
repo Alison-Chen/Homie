@@ -20,7 +20,7 @@ footer .footerlogo{
    align-items: center; 
    justify-content: center;
    /* border: 1px solid red; */
-   margin: 0 30px;
+   margin: 0 15px;
    font-size: 10px;
 }
 footer .footerlogo > p{
@@ -29,21 +29,21 @@ footer .footerlogo > p{
     /* border: 1px solid red; */
     
 }
-footer.quick_quick_link{
+/* footer.quick_quick_link{
     display: flex;
     flex-wrap: wrap;
    align-items: center;
-}
-footer .quick_link > .linkall{
+} */
+/* footer .quick_link > .linkall{
     list-style: none;
     /* font-size: 16px;  */
-}
-footer .quick_link > .linkall a{
+} */
+/* footer .quick_link > .linkall a{
     display: inline-block;
     text-decoration: none;
     color:rgb(115, 132, 148);
     font-size: 10px;
-} 
+}  */
 footer.footer .contact{
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +51,7 @@ footer.footer .contact{
     align-items: center;
     justify-content: center;
     /* border: 1px solid red; */
-    margin: 0 30px;
+    margin: 0 20px;
     font-size: 10px;
 }
 footer.footer .contact p{
@@ -59,7 +59,7 @@ footer.footer .contact p{
 }
 footer.footer .social{
     margin:0 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size:20px;
     /* display: flex; */
    
