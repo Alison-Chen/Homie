@@ -1,11 +1,11 @@
 
  /* -----------max-width: 1200px----------- */
-    @media screen and (max-width: 1200px){
+    /* @media screen and (max-width: 1200px){
     .owl-carousel .customer_reviewall > .customer_banner{
        
      
     }
- }
+ } */
  /* -----------max-width: 1024px----------- */
     @media screen and (max-width: 1024px){
 
@@ -178,5 +178,9 @@
         font-size: 14px;
         /* padding: 0 30%; */
     }
+    div.pricing_pic{
+        margin-left: 0px;
+    }
+
 }
 
