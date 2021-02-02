@@ -134,13 +134,14 @@ div.product_detail .product_title .add_button .buy:hover{
     background-color: #FF4A2D;
 }
 div.maybe {
-    width:1200px;
+    max-width:1200px;
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center; 
+    /* flex-direction: column; */
     /* border:1px solid red; */
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 0 200px;
+    
 } 
 div.maybe .may > p{
     /* border:1px solid red; */
@@ -148,19 +149,21 @@ div.maybe .may > p{
     color:#738494;
     font-weight: bold;
     margin: 10px 0;
+    margin-bottom: 20px;
+    /* border: 1px solid #000; */
 }
 
 
 .product{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: 0 auto;
 }
-div.maybe .may .item .m1, .m2, .m3, .m4{
+/* div.maybe .may .item .m1, .m2, .m3, .m4{
     width:200px;
     height:250px;
-    margin: 0 auto;
+    margin: 0 auto; */
     /* border: 1px solid #000; */
-}
+/* } */
 div.maybe .may .m1{
     /* padding-top: 50px; */
     /* border: 1px solid #000; */
@@ -177,4 +180,9 @@ div.maybe .may .m4{
 div.may .product{
     display: flex;
 
+}
+
+.owl-stage{
+    justify-content: center;
+    margin: 0 auto;
 }
