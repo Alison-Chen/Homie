@@ -6,7 +6,7 @@ $(".b").owlCarousel({
   nav: false, // 顯示箭頭
   dots: false,
   autoplay: true,
-  autoplayTimeout:3000,
+  autoplayTimeout:4500,
   autoplayHoverPause:true,
   navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
   responsive: {
@@ -28,7 +28,7 @@ $(".owl-carousel").owlCarousel({
   nav: true, // 顯示點點
   dots: false,
   autoplay: true,
-  autoplayTimeout:3000,
+  autoplayTimeout:4500,
   autoplayHoverPause:true,
   navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
   responsive: {

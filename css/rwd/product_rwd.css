@@ -17,6 +17,10 @@
         div.maybe > p{
             margin-right: 0;
         }
+        div.productdescript .breadcrumbs{
+            margin-left: 5px; 
+        
+        }
 
      }
      /* -----------max-width: 576px----------- */

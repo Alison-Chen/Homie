@@ -10,15 +10,19 @@ $(".product").owlCarousel({
     responsive: {
       0: {
         items: 2,
-        stagePadding: 100 // 螢幕大小為 0~600 顯示 1 個項目
+        // stagePadding: 100 // 螢幕大小為 0~600 顯示 1 個項目
       },
       320:{
         items: 1,
-        stagePadding: 50 
+        // stagePadding: 50 
       },
-      768: {
+      750: {
+        items: 3,
+        // stagePadding: 600// 螢幕大小為 600~1000 顯示 3 個項目
+      },
+      992:{
         items: 2,
-        stagePadding: 100// 螢幕大小為 600~1000 顯示 3 個項目
+        // stagePadding: 50 
       },
       1000: {
         items: 6, // 螢幕大小為 1000 以上 顯示 5 個項目

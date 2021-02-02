@@ -1,4 +1,54 @@
+.borderbottom{
+    border-bottom: 3px solid #738494;
 
+}
+
+div.productdescript {
+    position: relative;
+    /* border: 1px solid #000; */
+    max-width: 1200px;
+}
+/* breadcrumbs */
+div.productdescript .breadcrumbs{
+    /* border: 1px solid red; */
+    z-index: 1;
+    padding-top: 80px;
+    padding-left: 0px;
+    /* margin-left: 10px; */
+    /* left: 5px; */
+    width: 100%;    
+    color: #585858;
+    
+}
+
+div.productdescript .breadcrumbs > a{
+    text-decoration: none;
+    color:#585858;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+div.productdescript .breadcrumbs > .pdt_breadcrumb{
+    font-weight: bold;
+
+}
+
+div.productdescript .breadcrumbs > .pdt_breadcrumb{
+    font-size: 14px;
+    color: #585858;
+}
+
+div.productdescript {
+    width: 100%;
+    margin-left: 150px;
+}
+div.productdescript > p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    /* font-family: 'Roboto', sans-serif; */
+    /* border: 1px solid #000; */
+}
+/*  */
 div.product_detail{
     max-width: 1200px;
     /* border: 1px solid gray; */
@@ -9,7 +59,7 @@ div.product_detail{
     align-items: center; 
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 div.product_detail #large{
     /* width: 80%; */
@@ -150,6 +200,7 @@ div.maybe .may > p{
     font-weight: bold;
     margin: 10px 0;
     margin-bottom: 20px;
+    margin-top: 35px;
     /* border: 1px solid #000; */
 }
 
@@ -186,3 +237,13 @@ div.may .product{
     justify-content: center;
     margin: 0 auto;
 }
+
+.item .cover p{
+    position: relative;
+    margin: 0auto;
+    top: 150px;
+    bottom: 10px;
+    left: px;
+    padding: 5px;
+} 
+
